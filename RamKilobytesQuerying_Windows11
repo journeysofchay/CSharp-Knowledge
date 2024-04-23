@@ -1,3 +1,5 @@
+/*
+
 Windows version
 tested on Windows11, VS 2022 preview
 
@@ -10,6 +12,8 @@ install System.Management
 
 
 === the code ===
+
+*/
 
  ObjectQuery wql = new ObjectQuery("SELECT * FROM Win32_OperatingSystem");
  ManagementObjectSearcher searcher = new ManagementObjectSearcher(wql);
@@ -29,6 +33,7 @@ install System.Management
 
  }
 
+/*
 === end
 
 
@@ -67,3 +72,5 @@ properties : TotalVisibleMemorySize , value : 66374660
 .
 
 === end
+
+*/
