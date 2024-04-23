@@ -1,3 +1,13 @@
+Windows version
+
+=== Nuget ===
+
+install System.Management
+
+=== end
+
+
+
 === the code ===
 
  ObjectQuery wql = new ObjectQuery("SELECT * FROM Win32_OperatingSystem");
